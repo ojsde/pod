@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<locale name="en_US" full_name="U.S. English">
+
+	<message key="plugins.generic.pod.name">Print On Demand</message>
+	<message key="plugins.generic.pod.displayName">Print On Demand PlugIn</message>
+	<message key="plugins.generic.pod.description">This plugin provides support for Print on demand.</message>
+	<message key="plugins.generic.pod.partner">Partner ID</message>
+	<message key="plugins.generic.pod.podSecretKey">Secret Key</message>
+	<message key="plugins.generic.pod.mandant">Mandator</message>
+	<message key="plugins.generic.pod.action">Action</message>
+	<message key="plugins.generic.pod.repository">Repository</message>
+	<message key="plugins.generic.pod.authors">Authors</message>
+	<message key="plugins.generic.pod.cover">Cover</message>
+	<message key="plugins.generic.pod.colored">Color</message>
+	<message key="plugins.generic.pod.price">Price</message>
+	<message key="plugins.generic.pod.currency">Currency</message>
+	<message key="plugins.generic.pod.user_id">User ID</message>
+	<message key="plugins.generic.pod.firstname">First name</message>
+	<message key="plugins.generic.pod.lastname">Last name</message>
+	<message key="plugins.generic.pod.street">Street</message>
+	<message key="plugins.generic.pod.number">Number</message>
+	<message key="plugins.generic.pod.zip">ZIP</message>
+	<message key="plugins.generic.pod.town">Town</message>
+	<message key="plugins.generic.pod.country">Country</message>
+	<message key="plugins.generic.pod.failure_url">Failure URL</message>
+	<message key="plugins.generic.pod.email">E-Mail</message>
+	<message key="plugins.generic.pod.activated">Activated</message>
+	<message key="plugins.generic.pod.preface">Preface</message>
+	
+	<message key="plugins.generic.pod.activatedHelp">if activated, the following parameters will be considered</message>
+	<message key="plugins.generic.pod.partnerHelp">[i.e. fuberlin] created by the provider</message>
+	<message key="plugins.generic.pod.podSecretKeyHelp">[sha-256 key] created by the provider</message>
+	<message key="plugins.generic.pod.mandantHelp">[i.e. epubli] </message>
+	<message key="plugins.generic.pod.actionHelp">[workbench/order/price/voucher]</message>
+	<message key="plugins.generic.pod.repositoryHelp">[i.e. fuberlin] created by the provider</message>
+	<message key="plugins.generic.pod.authorsHelp">the authors are displayed on the rear side</message>
+	<message key="plugins.generic.pod.coverHelp">[i.e. cover.pdf] filename of the cover (format: PDF)</message>
+	<message key="plugins.generic.pod.formatHelp">standard format A4 portrait</message>
+	<message key="plugins.generic.pod.coloredHelp">[1/0] 1 = black/white; 0 = color</message>
+	<message key="plugins.generic.pod.priceHelp">[i.e. 0,5 or 1:100] dividend: fixed price or in proportion to page number</message>
+	<message key="plugins.generic.pod.currencyHelp">[1 = EUR, 2 = USD, 3 = CHF]</message>
+	<message key="plugins.generic.pod.user_idHelp">[i.e. user123] username</message>
+	<message key="plugins.generic.pod.firstnameHelp">first name</message>
+	<message key="plugins.generic.pod.lastnameHelp">last name</message>
+	<message key="plugins.generic.pod.streetHelp">street</message>
+	<message key="plugins.generic.pod.numberHelp">street number</message>
+	<message key="plugins.generic.pod.zipHelp">postal code</message>
+	<message key="plugins.generic.pod.townHelp">town</message>
+	<message key="plugins.generic.pod.countryHelp">country</message>
+	<message key="plugins.generic.pod.emailHelp">email</message>
+	<message key="plugins.generic.pod.prefaceHelp">text on the first page</message>
+	<message key="plugins.generic.pod.failure_urlHelp">[i.e. www.myjournal.com/error] URL redirection in case of an error</message>
+	<message key="plugins.generic.pod.businessAllowed">My institution allows business relations</message>
+	
+	<message key="plugins.generic.pod.partnerRequired">Please enter a partner ID</message>
+	<message key="plugins.generic.pod.podSecretKeyRequired">Please enter a secret key</message>
+	<message key="plugins.generic.pod.mandantRequired">Please enter a mandator</message>
+	<message key="plugins.generic.pod.actionRequired">Please enter an action</message>
+	<message key="plugins.generic.pod.repositoryRequired">Please enter a repository</message>
+	<message key="plugins.generic.pod.failureUrlRequired">Please enter a failure URL</message>
+
+	<message key="plugins.generic.pod.page">Page</message>
+	<message key="plugins.generic.pod.contactperson">Contact person</message>
+	<message key="plugins.generic.pod.listOfFiles">List of documents to be printed</message>
+	<message key="plugins.generic.pod.pageNumber">Page number</message>
+	<message key="plugins.generic.pod.showCart">Show cart</message>
+	<message key="plugins.generic.pod.showCartMouseover">Show the articles in the cart</message>
+	<message key="plugins.generic.pod.printBook">Print book</message>
+	<message key="plugins.generic.pod.printBookMouseover">Printout is being generated and transferred to epubli</message>
+	<message key="plugins.generic.pod.showJournal">Adapt journal</message>
+	<message key="plugins.generic.pod.showJournalMouseover">The articles of the journal's current issue are listed (the articles can be added to cart)</message>
+	<message key="plugins.generic.pod.showIssue">Adapt issue</message>
+	<message key="plugins.generic.pod.showIssueMouseover">The articles of the selected issue are listed (the articles can be added to cart)</message>
+	<message key="plugins.generic.pod.currentArticles">Articles to select</message>
+	<message key="plugins.generic.pod.addArticle">Add this article</message>
+	<message key="plugins.generic.pod.addArticleMouseover">This article will be added to the cart</message>
+	<message key="plugins.generic.pod.removeArticleMouseover">This article is removed from the cart</message>
+	<message key="plugins.generic.pod.showArticlePDFMouseover">This article is shown as PDF</message>
+	<message key="plugins.generic.pod.directPrintArticleMouseover">Print this article</message>
+	<message key="plugins.generic.pod.resetCart">Empty cart</message>
+	<message key="plugins.generic.pod.addAll">Put all into the cart</message>
+	<message key="plugins.generic.pod.help">Help</message>
+	<message key="plugins.generic.pod.helpHeader">Information on the</message>
+	<message key="plugins.generic.pod.loading">Please wait. The printout is being generated and transferred to epubli.</message>
+	<message key="plugins.generic.pod.infoPage">Help page</message>
+	<message key="plugins.generic.pod.error11">Print on demand error</message>
+	<message key="plugins.generic.pod.error11message">Please try it again.</message>
+	<message key="plugins.generic.pod.settings">Settings</message>
+	
+</locale>

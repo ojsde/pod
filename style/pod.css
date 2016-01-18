@@ -1,0 +1,114 @@
+/* BLOCK */
+
+div#podBlock {
+	margin: 15px 0 0 0;
+}
+
+div#podBlock ul {
+	padding: 0;
+}
+
+div#podBlock ul li {
+	list-style-type: none;
+}
+
+div#podBlock ul#podLinks li {
+	margin: 5px 0;
+}
+
+div#podBlock ul#podLinks li a {
+	display: inline-block;
+}
+
+div#podBlock ul#podLinks li img {
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+div#podBlock ul#podLinks li img.small {
+	margin: 0 9px 0 0;
+}
+
+div#podBlock select {
+	width: 150px;
+}
+
+div#podBlock a#linkHelp {
+	cursor: help; 
+	display: inline-block; 
+	margin: 5px 0 10px 0;
+}
+
+div#podBlock div#load {
+	position: absolute;
+	z-index: 1;
+	border: 2px dotted #000;
+	background: #f7f7f7;
+	width: 400px;
+	height: 200px;
+	margin-top: -150px;
+	margin-left: -150px;
+	padding: 20px;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	font-family: "Trebuchet MS", verdana, arial, tahoma;
+	font-size: 18pt;
+}
+
+
+/* SETTINGS */
+div.podSettings form span#coverFile {
+	display: inline-block;
+}
+
+div.podSettings form span#deleteCover {
+	display: inline-block;
+	margin: 0 0 0 20px;
+}
+
+div.podSettings form .podSettingsInfo {
+	font-size: 11px;
+	color: gray;
+	text-align: left;
+	padding-left: 1em;
+}
+
+div.podSettings form table {
+	margin: 0 0 30px 0;
+}
+
+div.podSettings form table tr td.contactperson {
+	font-weight: bold;
+	height: 40px;
+}
+
+div.podSettings form table tr#checkBusinessAllowed  td{
+	padding: 10px 0 5px 0;
+}
+
+
+/* HELP */
+div#helpContainer {
+	margin: 0 0 30px 0;
+}
+
+div#helpContainer ul li {
+	list-style-type: square;
+	margin: 10px 0;
+}
+
+div#helpContainer ul li em {
+	display: block;
+}
+
+
+/* OTHER */
+a#podAddAll {
+	display: inline-block;
+	float: right;
+}
+
+.podCover {
+	float: right;
+}

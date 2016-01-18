@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<locale name="de_DE" full_name="Deutsch (Deutschland)">
+	
+	<message key="plugins.generic.pod.name">Print On Demand</message>
+	<message key="plugins.generic.pod.displayName">Print-On-Demand-Plug-In</message>
+	<message key="plugins.generic.pod.description">Dieses PlugIn bietet eine Print-on-Demand Funktionalität</message>
+	<message key="plugins.generic.pod.partner">Partner ID</message>
+	<message key="plugins.generic.pod.podSecretKey">Sicherheitsschlüssel</message>
+	<message key="plugins.generic.pod.mandant">Mandant</message>
+	<message key="plugins.generic.pod.action">Aktion</message>
+	<message key="plugins.generic.pod.repository">Repository</message>
+	<message key="plugins.generic.pod.authors">Autoren</message>
+	<message key="plugins.generic.pod.cover">Cover</message>
+	<message key="plugins.generic.pod.colored">Farbig</message>
+	<message key="plugins.generic.pod.price">Preis</message>
+	<message key="plugins.generic.pod.currency">Währung</message>
+	<message key="plugins.generic.pod.user_id">User ID</message>
+	<message key="plugins.generic.pod.firstname">Vorname</message>
+	<message key="plugins.generic.pod.lastname">Nachname</message>
+	<message key="plugins.generic.pod.street">Straße</message>
+	<message key="plugins.generic.pod.number">Hausnummer</message>
+	<message key="plugins.generic.pod.zip">PLZ</message>
+	<message key="plugins.generic.pod.town">Stadt</message>
+	<message key="plugins.generic.pod.country">Land</message>
+	<message key="plugins.generic.pod.failure_url">Fehlerumleitung URL</message>
+	<message key="plugins.generic.pod.email">E-Mail</message>
+	<message key="plugins.generic.pod.activated">Aktiviert</message>
+	<message key="plugins.generic.pod.preface">Vorwort</message>
+
+	<message key="plugins.generic.pod.activatedHelp">falls aktiviert, werden folgende Parameter berücksichtigt</message>
+	<message key="plugins.generic.pod.partnerHelp">[z.B. fuberlin] wird vom Provider erstellt und bekanntgegeben</message>
+	<message key="plugins.generic.pod.podSecretKeyHelp">[sha-256 Schlüssel] wird vom Provider erstellt und bekanntgegeben </message>
+	<message key="plugins.generic.pod.mandantHelp">[z.B. epubli] wird vom Provider erstellt und bekanntgegeben</message>
+	<message key="plugins.generic.pod.actionHelp">[workbench/order/price/voucher]</message>
+	<message key="plugins.generic.pod.repositoryHelp">[z.B. fuberlin] wird vom Provider erstellt und bekanntgegeben</message>
+	<message key="plugins.generic.pod.authorsHelp">Autoren erscheinen auf der Rückseite</message>
+	<message key="plugins.generic.pod.coverHelp">[z.B. cover.pdf] Dateiname des Covers (Format: PDF)</message>
+	<message key="plugins.generic.pod.formatHelp">Standardeinstellung A4 Hoch</message>
+	<message key="plugins.generic.pod.coloredHelp">[1/0] 1 = SW; 0 = Farbig</message>
+	<message key="plugins.generic.pod.priceHelp">[z.B. 0,5 oder 1:100] Gewinnanteil: Fixpreis oder prozentuell nach Seitenanzahl</message>
+	<message key="plugins.generic.pod.currencyHelp">[1 = EUR, 2 = USD, 3 = CHF]</message>
+	<message key="plugins.generic.pod.user_idHelp">[z.B. user123] Username</message>
+	<message key="plugins.generic.pod.firstnameHelp">Vorname</message>
+	<message key="plugins.generic.pod.lastnameHelp">Nachname</message>
+	<message key="plugins.generic.pod.streetHelp">Straße</message>
+	<message key="plugins.generic.pod.numberHelp">Hausnummer</message>
+	<message key="plugins.generic.pod.zipHelp">Postleitzahl</message>
+	<message key="plugins.generic.pod.townHelp">Stadt</message>
+	<message key="plugins.generic.pod.countryHelp">Land</message>
+	<message key="plugins.generic.pod.emailHelp">E-Mail</message>
+	<message key="plugins.generic.pod.prefaceHelp">Text auf der ersten Seite (vor dem Inhaltsverzeichnis)</message>
+	<message key="plugins.generic.pod.failure_urlHelp">[z.B. www.myjournal.com/error] Fehlerumleitungs-URL im Falle eines Fehlers</message>
+	<message key="plugins.generic.pod.businessAllowed">Meine Institution erlaubt Geschäftsbeziehungen</message>
+	
+	<message key="plugins.generic.pod.partnerRequired">Bitte geben Sie eine Partner-ID ein</message>
+	<message key="plugins.generic.pod.podSecretKeyRequired">Bitte geben Sie einen Sicherheitsschlüssel ein</message>
+	<message key="plugins.generic.pod.mandantRequired">Bitte geben Sie einen Mandanten ein</message>
+	<message key="plugins.generic.pod.actionRequired">Bitte geben Sie eine Aktion ein</message>
+	<message key="plugins.generic.pod.repositoryRequired">Bitte geben Sie ein Repository ein</message>
+	<message key="plugins.generic.pod.failureUrlRequired">Bitte geben Sie eine Fehlerumleitungs-URL ein</message>
+
+	<message key="plugins.generic.pod.page">Seite</message>
+	<message key="plugins.generic.pod.contactperson">Kontaktperson</message>
+	<message key="plugins.generic.pod.listOfFiles">Warenkorb</message>
+	<message key="plugins.generic.pod.pageNumber">Seitenanzahl</message>
+	<message key="plugins.generic.pod.showCart">Warenkorb zeigen</message>
+	<message key="plugins.generic.pod.showCartMouseover">Dort werden alle Artikel aufgelistet, welche bisher in den Warenkorb gelegt wurden.</message>
+	<message key="plugins.generic.pod.printBook">Angebot erstellen</message>
+	<message key="plugins.generic.pod.printBookMouseover">Die einzelnen Artikel werden zu einer Druckausgabe zusammengefasst und anschließend an epubli übermittelt.</message>
+	<message key="plugins.generic.pod.showJournal">Aktuelle Ausgabe (in den Warenkorb)</message>
+	<message key="plugins.generic.pod.showJournalMouseover">Die Artikel der aktuellen Ausgabe werden aufgelistet und können in den Warenkorb gelegt werden.</message>
+	<message key="plugins.generic.pod.showIssue">Ausgabe anzeigen/auswählen</message>
+	<message key="plugins.generic.pod.showIssueMouseover">Die Artikel der momentan ausgewählten Ausgabe werden aufgelistet und können in den Warenkorb gelegt werden.</message>
+	<message key="plugins.generic.pod.currentArticles">Artikel in den Warenkorb</message>
+	<message key="plugins.generic.pod.addArticle">Diesen Artikel hinzufügen</message>
+	<message key="plugins.generic.pod.addArticleMouseover">Dieser Artikel wird in den Warenkorb gelegt</message>
+	<message key="plugins.generic.pod.removeArticleMouseover">Dieser Artikel wird aus dem Warenkorb entfernt</message>
+	<message key="plugins.generic.pod.showArticlePDFMouseover">Dieser Artikel wird als PDF angezeigt</message>
+	<message key="plugins.generic.pod.directPrintArticleMouseover">Diesen Artikel direkt ausdrucken</message>
+	<message key="plugins.generic.pod.resetCart">Warenkorb leeren</message>
+	<message key="plugins.generic.pod.addAll">Alle in den Warenkorb</message>
+	<message key="plugins.generic.pod.help">Hilfe</message>
+	<message key="plugins.generic.pod.helpHeader">Informationen zum</message>
+	<message key="plugins.generic.pod.loading">Bitte Warten. Die Druckausgabe wird zusammengestellt und an epubli übermittelt.</message>
+	<message key="plugins.generic.pod.infoPage">Hilfeseite</message>
+	<message key="plugins.generic.pod.error11">Bei Print-on-Demand ist ein Fehler aufgetreten</message>
+	<message key="plugins.generic.pod.error11message">Bitte versuchen Sie es noch mal.</message>
+	<message key="plugins.generic.pod.settings">Einstellungen</message>
+	
+</locale>
