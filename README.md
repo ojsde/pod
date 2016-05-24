@@ -39,7 +39,6 @@ Database access, server access
 - writing access to OMP tables: 2
 
 		plugin_settings
-		versions
 
 - new tables: 0
 - recurring server access: yes
