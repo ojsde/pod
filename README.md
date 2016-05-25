@@ -36,7 +36,7 @@ Database access, server access
 
 		plugin_settings
 
-- writing access to OMP tables: 1
+- writing access to OJS tables: 1
 
 		plugin_settings
 
