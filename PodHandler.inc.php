@@ -192,11 +192,11 @@ class PODHandler extends Handler {
             // serialize the parameters in order to get out of an array the URL
             $appendParameters = $this->serializeArrayForGET($settingsArray);
 			
-			
+			/*
 			echo '<pre>' . print_r($settingsArray, true) . '</pre>';
 			echo POD_PROVIDER_INTERFACE . $appendParameters;
 			die();
-			
+			*/
 			
             // redirect the user with the complete parameter set to the provider
             $this->redirect(POD_PROVIDER_INTERFACE . $appendParameters);
